@@ -1,0 +1,20 @@
+.guides {
+    margin: auto;
+    max-width: 1200px;
+    padding-top: 280px;
+    padding-left: 40px;
+}
+
+.guides-block {
+    width: 450px;
+    display: inline-block;
+    padding-top: 150px;
+}
+.guides-description {
+    @include font ('Mulish', 1.7rem, 3rem, 300);
+    margin-bottom: 3.9rem;
+    color: #7D7987;
+}
+.img5 {
+    float: right;
+}

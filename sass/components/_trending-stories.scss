@@ -1,0 +1,44 @@
+.trending_stories {
+    margin: auto;
+    padding-top: 300px;
+    padding-bottom: 300px;
+    max-width: 1200px;
+    &-header {
+        display: flex;
+        justify-content: space-between;
+        align-items: baseline;
+    }
+    &-link {
+        @include font ('Inter', 1.7rem, 6rem, 600);
+        text-decoration: none;
+        color: #FB8F1D;
+    }
+    &-info {
+        display: grid;
+        grid-template-areas: 'a a a a';
+        grid-gap: 60px;
+        &-block {
+            margin-top: 50px;
+            &-img {
+                width: 252px;
+                height: 232px;
+                border-radius: 10px 10px 0 0;
+            }
+            &-title {
+                margin-top: 18px;
+                @include font ('Inter', 1.9rem, 3rem, 700);
+            }
+            &-description {
+                margin-top: 13px;
+                margin-bottom: 20px;
+                @include font ('Inter', 1.5rem, 2.6rem, 400);
+                color: #7D7987;
+            }
+            &-link {
+                text-decoration: none;
+                @include font ('Inter', 1.5rem, 2.8rem, 600);
+                color: #FB8F1D;
+            }
+        }
+    }
+}

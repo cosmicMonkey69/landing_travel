@@ -1,0 +1,19 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+html {
+  background-color: $color-background_page;
+  font-size: 10px;
+}
+body {
+  font-size: 1rem;
+}
+h1 {
+  @include font('Playfair Display', 6.4rem, 8rem, 700);
+}
+h2 {
+  @include font('Playfair Display', 3.6rem, 5rem, 700);
+  margin-bottom: 2rem;
+}

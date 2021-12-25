@@ -1,0 +1,126 @@
+.header {
+    max-width: 1219px;
+    margin: auto;
+    padding-top: 4.5rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    &-block {
+        display: flex;
+    }
+    position: relative;
+}
+
+.navigation {
+    display: flex;
+    margin-top: 1rem;
+    &-link {
+        list-style: none;
+        padding-right: 3.5rem;
+        color: $color-header_link;
+        @include font ('Inter', 1.6rem, 2rem, 400);
+        &:hover {
+            cursor: pointer;
+            color: $color-header_link-hover;
+            @include font ('Inter', 1.6rem, 2rem,500);
+        }
+    }
+}
+
+.circle {
+    position: absolute;
+    top: 454px;
+    left: -110px;
+}
+.circle1 {
+    top: 700px;
+    left: 500px;
+    width: 20px;
+    height: 20px;
+}
+.circle2 {
+    top: 1400px;
+    left: 1050px;
+    width: 20px;
+    height: 20px;
+}
+.circle3 {
+    top: 1750px;
+    left: 970px;
+    width: 20px;
+    height: 20px;
+}
+.circle4 {
+    top: 2270px;
+    left: 550px;
+    width: 20px;
+    height: 20px;
+}
+.circle5 {
+    top: 2570px;
+    left: 150px;
+    width: 20px;
+    height: 20px;
+}
+.circle6 {
+    top: 3510px;
+    left: -80px;
+    width: 22px;
+    height: 22px;
+}
+.circle7 {
+    top: 4420px;
+    left: -40px;
+    width: 22px;
+    height: 22px;
+}
+.circle8 {
+    top: 4650px;
+    left: 800px;
+    width: 22px;
+    height: 22px;
+}
+.circle9 {
+    top: 3295px;
+    left: 1155px;
+    width: 42px;
+    height: 42px;
+}
+
+.cross {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    top: 180px;
+    left: 450px;
+}
+.cross1 {
+    top: 1100px;
+    left: 650px;
+}
+.cross2 {
+    top: 2100px;
+    left: -70px;
+}
+.cross3 {
+    top: 2600px;
+    left: 1260px;
+    width: 16px;
+    height: 16px;
+}
+.cross4 {
+    top: 2900px;
+    left: 500px;
+    transform: rotate(20deg);
+}
+.cross5 {
+    top: 3900px;
+    left: 380px;
+}
+.cross6 {
+    top: 3782px;
+    left: 783px;
+    width: 32px;
+    height: 32px;
+    z-index: 1;
+}

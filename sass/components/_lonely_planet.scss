@@ -1,0 +1,18 @@
+.lonely_planet {
+    margin: auto;
+    max-width: 1300px;
+    padding-top: 333px;
+}
+.lonely_planet-block {
+    margin-left: 760px;
+    margin-right: 40px;
+    margin-top: 130px;
+}
+.lonely_planet-description {
+    @include font ('Mulish', 1.7rem, 3rem, 300);
+    margin-bottom: 3.9rem;
+    color: #7D7987;
+}
+.img2 {
+    float: left;
+}

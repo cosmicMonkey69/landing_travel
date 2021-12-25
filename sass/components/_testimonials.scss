@@ -1,0 +1,49 @@
+.testimonials {
+    margin: auto;
+    padding-top: 250px;
+    max-width: 1140px;
+    position: relative;
+    &-info {
+        display: inline-block;
+        &-review {
+            @include font ('Mulish', 2.6rem, 3.4rem, 400);
+            width: 450px;
+            margin-top: 30px;
+        }
+        &-person {
+            @include font ('Inter', 2.2rem, 4.8rem, 700);
+            margin-top: 40px;
+        }
+        &-profession {
+            @include font ('Inter', 1.8rem, 4.8rem, 400);
+        }
+    }
+    &-img {
+        float: right;
+        margin-top: 50px;
+        border-radius: 25px;
+        clip-path: polygon(0 0, 384px 0, 384px 431px, 252px 431px, 252px 491px, 0 491px);
+    }
+    &-button {
+        position: absolute;
+        top: 815px;
+        right: 75px;
+        border-radius: 50%;
+        padding: 10px 14px;
+        background-color: white;
+        border: 2px solid black;
+        font-weight: 900;
+        opacity: 0.5;
+        &:active {
+            opacity: 1;
+        }
+        &-position {
+            right: 10px;
+        }
+    }
+}
+
+.img_star {
+    margin-top: 145px;
+    margin-right: 16px;
+}

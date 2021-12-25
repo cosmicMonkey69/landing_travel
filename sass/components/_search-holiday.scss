@@ -1,0 +1,39 @@
+.search_holiday {
+    margin: auto;
+    padding-top: 8rem;
+    max-width: 1306px;
+    position: relative;
+}
+.holiday_finder {
+    margin-left: 30px;
+    &-name {
+        margin-top: 7rem;
+        @include font ('Inter', 2.2rem, 2.6rem, 600);
+    }
+}
+.img {
+    position: absolute;
+    top: 50px;
+    left: 600px;
+}
+.line {
+    width: 32px;
+    height: 2px;
+    border-radius: 4px;
+    color: $color-holiday_finder-line;
+    margin-top: 2rem;
+    margin-bottom: 4rem;
+}
+.select {
+    @include font ('Inter', 1.5rem, 3.2rem, 400);
+    padding-left: 31px;
+    border: 0.8px solid $color-select_border;
+    border-radius: 6px;
+    width: 220px;
+    height: 52px;
+    margin-right: 3rem;
+    margin-bottom: 3.5rem;
+    appearance: none;
+    overflow: hidden;
+    background: url('/1/img/Vector.png') no-repeat 180px;
+}

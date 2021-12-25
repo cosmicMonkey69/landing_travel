@@ -1,0 +1,15 @@
+.button {
+    background-color: white;
+    margin-right: 1.8rem;
+    border: 1px solid $color-button;
+    padding: 8px 46px;
+    @include font('Inter', 1.5rem, 2.4rem, 400);
+    border-radius: 8px;
+    color: $color-button;
+    &_colored {
+        padding: 8px 36px;
+        margin-right: 0;
+        color: white;
+        background-color: $color-button;
+    }
+}

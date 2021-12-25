@@ -1,0 +1,44 @@
+.featured_destinations {
+    margin: auto;
+    max-width: 1116px;
+    padding-top: 300px;
+    &-header {
+        display: flex;
+        justify-content: space-between;
+        align-items: baseline;
+    }
+    &-link {
+        @include font ('Inter', 1.7rem, 6rem, 600);
+        text-decoration: none;
+        color: #FB8F1D;
+    }
+    &-photo {
+        display: flex;
+        margin-top: 60px;
+        &-block {
+            margin-right: 30px;
+            position: relative;
+            
+        }
+    }
+}
+
+.img3 {
+    border-radius: 10px;
+    clip-path: polygon(0px 0px, 261px 0px, 261px 332px, 141px 332px, 141px 280px, 0px 280px);
+}
+.photo_description {
+    position: absolute;
+    top: 285px;
+    left: 10px;
+}
+
+.photo_description-place {
+    @include font ('Inter', 1.6rem, 2.5rem, 600);
+    color: #042521;
+}
+.photo_description-country {
+    @include font ('Inter', 1.5rem, 2.4rem, 500);
+    opacity: 0.5;
+}
+

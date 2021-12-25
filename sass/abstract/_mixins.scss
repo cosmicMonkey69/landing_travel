@@ -1,0 +1,6 @@
+@mixin font ($family: 'Inter', $size:  1.6rem, $line-height: 2rem, $weight: 400) {
+    font-family: $family;
+    font-size: $size;
+    line-height: $line-height;
+    font-weight: $weight;
+}

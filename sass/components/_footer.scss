@@ -1,0 +1,57 @@
+.footer {
+    padding-top: 80px;
+    background-color: #F9F9FB;
+    &-info {
+        margin: auto;
+        max-width: 1219px;
+        display: grid;
+        grid-template-areas: 'aa a a a';
+        grid-gap: 130px;
+        &-block {
+            &-call {
+                @include font ('Mulish', 1.8rem, 2.8rem, 300);
+                color: $color-footer_text;
+                margin-top: 26px;
+            }
+            &-copyright {
+                @include font ('Mulish', 1.7rem, 2.8rem, 300);
+                color: $color-footer_text;
+                margin-top: 65px;
+            }
+        }
+        &-menu {
+            &-name {
+                @include font ('Mulish', 1.9rem, 6rem, 700);
+            }
+            &-link {
+                @include font ('Mulish', 1.8rem, 3.8rem, 300);
+                display: block;
+                color: $color-footer_text;
+                text-decoration: none;
+                &:hover {
+                    color: $color-button;
+                }
+            }
+        }
+    }
+}
+
+.footer_line {
+    width: 1219px;
+    height: 0.6px;
+    margin: auto;
+    max-width: 1219px;
+    margin-top: 80px;
+    margin-bottom: 30px;
+}
+
+.footer-social_buttons {
+    margin: auto;
+    max-width: 1219px;
+    padding-bottom: 30px;
+    display: flex;
+    justify-content: center;
+    &-img {
+        margin-right: 35px;
+    }
+}
